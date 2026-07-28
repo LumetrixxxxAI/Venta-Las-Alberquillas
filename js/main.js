@@ -129,18 +129,6 @@
   }
   reiniciarAutoplay();
 
-  /* ---------- Formulario de contacto (envío por WhatsApp) ---------- */
-  var formulario = document.getElementById("formularioContacto");
-  formulario.addEventListener("submit", function (e) {
-    e.preventDefault();
-    var nombre = document.getElementById("nombre").value.trim();
-    var telefono = document.getElementById("telefono").value.trim();
-    var mensaje = document.getElementById("mensaje").value.trim();
-    var texto = "Hola, soy " + nombre + " (tel. " + telefono + "). " + mensaje;
-    var url = "https://wa.me/34641534080?text=" + encodeURIComponent(texto);
-    window.open(url, "_blank", "noopener");
-  });
-
   /* ---------- Banner de cookies ---------- */
   var cookiesBanner = document.getElementById("cookies");
   var CLAVE_COOKIES = "alberquillas_cookies";

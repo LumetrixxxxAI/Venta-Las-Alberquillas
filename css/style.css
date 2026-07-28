@@ -816,8 +816,11 @@ section { position: relative; }
 }
 .contacto .contenedor {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: clamp(2.5rem, 6vw, 5rem);
+  grid-template-columns: 1fr;
+}
+.contacto__info {
+  max-width: 640px;
+  margin: 0 auto;
 }
 .contacto__telefono {
   display: flex;
