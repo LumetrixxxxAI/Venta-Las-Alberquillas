@@ -838,24 +838,7 @@ section { position: relative; }
 }
 .contacto__info .etiqueta::before { display: none; }
 .contacto__info .intro-seccion { margin-left: auto; margin-right: auto; }
-.contacto__telefono {
-  display: inline-flex;
-  align-items: center;
-  gap: 1rem;
-  font-family: var(--serif);
-  font-size: clamp(1.8rem, 3.4vw, 2.3rem);
-  font-weight: 700;
-  color: var(--terracota);
-  background: var(--hueso);
-  padding: 1rem 2rem;
-  border-radius: 999px;
-  box-shadow: var(--sombra-suave);
-  margin: 1.8rem 0 2rem;
-  transition: color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-}
-.contacto__telefono:hover { color: var(--terracota-oscuro); transform: translateY(-3px); box-shadow: 0 18px 30px -14px rgba(124,58,30,0.3); }
-.contacto__telefono svg { width: 28px; height: 28px; flex-shrink: 0; }
-.contacto__acciones { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 1rem; margin-bottom: 2.4rem; }
+.contacto__acciones { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 1rem; margin-top: 2rem; }
 .contacto__redes { display: flex; justify-content: center; gap: 0.8rem; }
 .contacto__redes a {
   width: 46px; height: 46px;
