@@ -433,11 +433,8 @@ section { position: relative; }
 .historia__texto p { margin-bottom: 1.15rem; color: var(--tinta-suave); }
 .historia__texto p:first-of-type::first-letter {
   font-family: var(--serif);
-  font-size: 2.2rem;
+  font-size: 2rem;
   color: var(--terracota);
-  float: left;
-  line-height: 0.9;
-  padding: 0.1rem 0.35rem 0 0;
   font-weight: 700;
 }
 .historia__firma {
