@@ -433,11 +433,11 @@ section { position: relative; }
 .historia__texto p { margin-bottom: 1.15rem; color: var(--tinta-suave); }
 .historia__texto p:first-of-type::first-letter {
   font-family: var(--serif);
-  font-size: 3.4rem;
+  font-size: 2.2rem;
   color: var(--terracota);
   float: left;
-  line-height: 0.8;
-  padding: 0.1rem 0.4rem 0 0;
+  line-height: 0.9;
+  padding: 0.1rem 0.35rem 0 0;
   font-weight: 700;
 }
 .historia__firma {
@@ -858,7 +858,7 @@ section { position: relative; }
 }
 .contacto__telefono:hover { color: var(--terracota-oscuro); transform: translateY(-3px); box-shadow: 0 18px 30px -14px rgba(124,58,30,0.3); }
 .contacto__telefono svg { width: 28px; height: 28px; flex-shrink: 0; }
-.contacto__acciones { display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; margin-bottom: 2.4rem; }
+.contacto__acciones { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 1rem; margin-bottom: 2.4rem; }
 .contacto__redes { display: flex; justify-content: center; gap: 0.8rem; }
 .contacto__redes a {
   width: 46px; height: 46px;
