@@ -13,3 +13,6 @@ desktop.ini
 # Archivos temporales
 *.tmp
 *.bak
+
+# Fotos originales sin procesar (no se publican, solo referencia local)
+/fuentes-fotos/
